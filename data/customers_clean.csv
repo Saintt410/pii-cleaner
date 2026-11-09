@@ -1,0 +1,5 @@
+id,name,email,phone,notes,card
+1,[NAME],[EMAIL],[PHONE],Called from [IP] about refund,[CARD]
+2,[NAME],[EMAIL],[PHONE],SSN given: [SSN],
+3,[NAME],[EMAIL],[PHONE],Prefers email [EMAIL],[CARD]
+4,[NAME],,,Order #1234567890123 shipped,
