@@ -9,9 +9,7 @@ PATTERNS = {
     "EMAIL": re.compile(
         r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
     ),
-    "CARD": re.compile(
-        r"\b(?:\d[ -]?){13,16}\b"
-    ),
+    "CARD": re.compile(r"\b\d(?:[ -]?\d){12,15}\b"),
     "SSN": re.compile(
         r"\b\d{3}-\d{2}-\d{4}\b"
     ),
